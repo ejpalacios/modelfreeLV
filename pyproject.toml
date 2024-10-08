@@ -17,6 +17,7 @@ seaborn = "^0.13.2"
 dss-python = "^0.15.7"
 networkx = "^3.3"
 xlrd = "^2.0.1"
+jupyterlab-git = "^0.50.1"
 
 
 [build-system]
