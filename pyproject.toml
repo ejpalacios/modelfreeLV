@@ -2,7 +2,7 @@
 name = "modelfreelv"
 version = "0.1.0"
 description = "Model-Free Voltage Estimation of Low Voltage Electrical Power Distribution Systems using Smart Meter Data"
-authors = ["Your Name <you@example.com>"]
+authors = ["Anthony O'Malley <anthonyomalley999@gmail.com>, Dr. Barry P. Hayes <barry.hayes@ucc.ie>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
