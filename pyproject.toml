@@ -1,25 +1,35 @@
-[tool.poetry]
+[project]
 name = "modelfreelv"
 version = "0.1.0"
-description = "Model-Free Voltage Estimation of Low Voltage Electrical Power Distribution Systems using Smart Meter Data"
-authors = ["Anthony O'Malley <anthonyomalley999@gmail.com>, Dr. Barry P. Hayes <barry.hayes@ucc.ie>"]
-readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.12"
-numpy = "^2.1.2"
-pandas = "^2.2.3"
-jupyterlab = "^4.2.5"
-scikit-learn = "^1.5.2"
-scipy = "^1.14.1"
-matplotlib = "^3.9.2"
-seaborn = "^0.13.2"
-dss-python = "^0.15.7"
-networkx = "^3.3"
-xlrd = "^2.0.1"
-jupyterlab-git = "^0.50.1"
+description = "Model-Free Voltage Estimation of Low Voltage Electrical Power Distribution Systems Using Smart Meter Data"
+authors = [
+    {name = "Anthony O'Malley ",email = "anthonyomalley999@gmail.com"},
+    {name = "Dr. Emilio J. Palacios-Garcia",email = "epalacios-garcia@ucc.ie"},
+    {name = "Dr. Barry P. Hayes ",email = "barry.hayes@ucc.ie"}
+]
+license = {text = "MIT"}
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "numpy (>=2.4.2,<3.0.0)",
+    "pandas (>=3.0.0,<4.0.0)",
+    "jupyterlab (>=4.5.3,<5.0.0)",
+    "scikit-learn (>=1.8.0,<2.0.0)",
+    "scipy (>=1.17.0,<2.0.0)",
+    "matplotlib (>=3.10.8,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "dss-python (>=0.15.7,<0.16.0)",
+    "networkx (>=3.6.1,<4.0.0)",
+    "xlrd (>=2.0.2,<3.0.0)",
+    "jupyterlab-git (>=0.51.4,<0.52.0)"
+]
 
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ruff (>=0.15.0,<0.16.0)",
+    "mypy (>=1.19.1,<2.0.0)"
+]
