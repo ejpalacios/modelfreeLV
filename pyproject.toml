@@ -1,4 +1,4 @@
-[tool.poetry]
+[project]
 name = "modelfreelv"
 version = "0.1.0"
 description = "Model-Free Voltage Estimation of Low Voltage Electrical Power Distribution Systems using Smart Meter Data"
@@ -23,7 +23,7 @@ opendssdirect-py = "^0.9.4"
 
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [dependency-groups]
