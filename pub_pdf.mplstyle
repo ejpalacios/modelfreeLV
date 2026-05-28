@@ -1,0 +1,24 @@
+figure.figsize: 3.5, 2.18
+figure.dpi: 300
+lines.linewidth: 0.5
+lines.markersize: 3
+font.size: 6
+font.family: sans-serif
+axes.grid: True
+axes.linewidth: 0.5
+grid.linestyle: "dashed"
+grid.alpha: 0.5
+grid.linewidth: 0.3
+legend.fontsize: 6
+legend.frameon: True
+xtick.major.width: 0.5
+ytick.major.width: 0.5
+
+boxplot.flierprops.linewidth: 0.5
+boxplot.boxprops.linewidth: 0.5
+boxplot.whiskerprops.linewidth: 0.5
+boxplot.capprops.linewidth: 0.5
+boxplot.medianprops.linewidth: 0.5
+boxplot.meanprops.linewidth: 0.5
+
+image.cmap : rainbow
